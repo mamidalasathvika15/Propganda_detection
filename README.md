@@ -9,7 +9,7 @@ An explainable NLP-based platform that detects propaganda techniques in text, as
 
 This system moves beyond simple classification by combining detection, risk estimation, explanation, and response generation into a single pipeline.
 
----
+
 
 ## Features
 
@@ -20,7 +20,7 @@ This system moves beyond simple classification by combining detection, risk esti
 - Suggests neutral rewrite alternatives
 - Interactive interface for testing input text (Streamlit app)
 
----
+
 
 ## Project Pipeline
 
@@ -32,7 +32,7 @@ Input Text
 → Sentence Highlighting  
 → Neutral Rewrite Suggestions  
 
----
+
 
 ## Tech Stack
 
@@ -42,7 +42,7 @@ Input Text
 - Pandas, NumPy
 - Streamlit (for UI)
 
----
+
 
 ## Folder Structure
 
@@ -59,7 +59,7 @@ propaganda-detection-system/
 
 ````
 
----
+
 
 ## How to Run the Project
 
@@ -91,7 +91,7 @@ Due to size limitations, the full dataset is not included in this repository.
 
 A small sample dataset is available inside the `data/` folder for testing.
 
----
+
 
 ## Example Use Case
 
@@ -108,7 +108,7 @@ Output:
 - Explanation: Uses emotional pressure to influence audience perception
 - Suggested rewrite: Provide evidence-based reasoning without emotional exaggeration
 
----
+
 
 ## Screenshots
 
@@ -118,7 +118,7 @@ Output:
 <img width="556" height="593" alt="Para" src="https://github.com/user-attachments/assets/986d9de5-958e-43c8-845d-7fd0c5ddec22" />
 
 
----
+
 
 ## Future Improvements
 
@@ -128,7 +128,7 @@ Output:
 - Improve explanation interpretability
 - Add dashboard visualization for analytics
 
----
+
 
 ## Applications
 
@@ -138,4 +138,3 @@ Output:
 - Educational tools for media literacy
 - Policy and governance research support
 
----
