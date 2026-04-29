@@ -57,7 +57,7 @@ propaganda-detection-system/
 
 Clone the repository:
 
-git clone https://github.com/yourusername/propaganda-detection-system.git
+git clone [https://github.com/yourusername/propaganda-detection-system.git](https://github.com/mamidalasathvika15/Propganda_detection)
 
 Install dependencies:
 
@@ -97,6 +97,7 @@ Output:
 ## Demo
 
 ![Demo Screenshot](demo/demo.png)
+please refer the demo folder for results.
 
 ---
 
