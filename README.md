@@ -110,15 +110,9 @@ Output:
 
 
 
-## Screenshots
+## Demo
 
-<img width="558" height="690" alt="Para1" src="https://github.com/user-attachments/assets/a3a447d6-a4b6-4903-9520-ccbb79e8ee61" />
-<img width="559" height="644" alt="High" src="https://github.com/user-attachments/assets/4ab86567-673a-494f-a485-304e2050797f" />
-<img width="558" height="618" alt="Low" src="https://github.com/user-attachments/assets/5e0d8f65-67d7-4694-87ca-a242ec68d5b8" />
-<img width="556" height="593" alt="Para" src="https://github.com/user-attachments/assets/986d9de5-958e-43c8-845d-7fd0c5ddec22" />
-
-
-
+![Demo Screenshot](demo/demo.png)
 
 ## Future Improvements
 
