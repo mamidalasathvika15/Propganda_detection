@@ -1,0 +1,141 @@
+Here’s a **professional README.md** you can copy directly into your GitHub repository for your **Propaganda Detection System**. It’s structured the way recruiters and reviewers expect for ML/NLP projects.
+
+Just paste this into your `README.md` file:
+
+```markdown
+# Propaganda Detection System
+
+An explainable NLP-based platform that detects propaganda techniques in text, assigns a severity risk score (0–100), highlights evidence sentences, and suggests neutral rewrites for better decision support.
+
+This system moves beyond simple classification by combining detection, risk estimation, explanation, and response generation into a single pipeline.
+
+---
+
+## Features
+
+- Detects propaganda techniques using transformer-based NLP models (BERT / RoBERTa)
+- Assigns severity-based risk scores (0–100 scale)
+- Highlights propaganda-triggering sentences
+- Generates human-readable explanations
+- Suggests neutral rewrite alternatives
+- Interactive interface for testing input text (Streamlit app)
+
+---
+
+## Project Pipeline
+
+Input Text  
+→ Preprocessing  
+→ Propaganda Technique Detection  
+→ Risk Scoring (0–100)  
+→ Explanation Generation  
+→ Sentence Highlighting  
+→ Neutral Rewrite Suggestions  
+
+---
+
+## Tech Stack
+
+- Python
+- HuggingFace Transformers
+- PyTorch / Scikit-learn
+- Pandas, NumPy
+- Streamlit (for UI)
+
+---
+
+## Folder Structure
+
+```
+
+propaganda-detection-system/
+│
+├── app.py
+├── src/
+├── data/
+├── screenshots/
+├── requirements.txt
+└── README.md
+
+````
+
+---
+
+## How to Run the Project
+
+Clone the repository:
+
+```
+git clone https://github.com/yourusername/propaganda-detection-system.git
+```
+
+Install dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+Run the application:
+
+```
+streamlit run app.py
+```
+
+---
+
+## Dataset
+
+The model is trained using a propaganda detection dataset (e.g., SemEval Propaganda Dataset).
+
+Due to size limitations, the full dataset is not included in this repository.
+
+A small sample dataset is available inside the `data/` folder for testing.
+
+---
+
+## Example Use Case
+
+Input:
+
+```
+"Our country is under threat because of these people."
+```
+
+Output:
+
+- Technique detected: Fear Appeal
+- Risk score: 78/100
+- Explanation: Uses emotional pressure to influence audience perception
+- Suggested rewrite: Provide evidence-based reasoning without emotional exaggeration
+
+---
+
+## Screenshots
+
+<img width="558" height="690" alt="Para1" src="https://github.com/user-attachments/assets/a3a447d6-a4b6-4903-9520-ccbb79e8ee61" />
+<img width="559" height="644" alt="High" src="https://github.com/user-attachments/assets/4ab86567-673a-494f-a485-304e2050797f" />
+<img width="558" height="618" alt="Low" src="https://github.com/user-attachments/assets/5e0d8f65-67d7-4694-87ca-a242ec68d5b8" />
+<img width="556" height="593" alt="Para" src="https://github.com/user-attachments/assets/986d9de5-958e-43c8-845d-7fd0c5ddec22" />
+
+
+---
+
+## Future Improvements
+
+- Add multi-language propaganda detection
+- Deploy model using FastAPI
+- Integrate real-time news/social media analysis
+- Improve explanation interpretability
+- Add dashboard visualization for analytics
+
+---
+
+## Applications
+
+- Journalism verification workflows
+- Social media moderation
+- Election misinformation monitoring
+- Educational tools for media literacy
+- Policy and governance research support
+
+---
